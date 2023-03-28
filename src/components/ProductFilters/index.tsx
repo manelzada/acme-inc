@@ -20,9 +20,9 @@ export const ProductFilters = ({ filterType, handleFilter }: IProductFiltersProp
           Preço <IoChevronDownSharp />
         </FilterButton>
       )}
-      <FilterSelect stroke={true} onChange={(e) => handleFilter(e.target.value)}>
+      <FilterSelect outline={true} onChange={(e) => handleFilter(e.target.value)}>
         <option value="" disabled selected>
-          Filtrar por <AiOutlineUnorderedList />
+          Filtrar por
         </option>
         <option value="all">Todos</option>
         <option value="favorites">Favoritos</option>

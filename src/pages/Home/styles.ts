@@ -1,24 +1,24 @@
 import styled from '@emotion/styled';
 
-interface FilterButtonProps {
-  stroke?: boolean;
+interface IFilterButtonProps {
+  outline?: boolean;
 }
 
-export const FilterButton = styled.button<FilterButtonProps>`
-  background: ${({ stroke }) => (stroke ? '#fff' : '#ccc')};
+export const FilterButton = styled.button<IFilterButtonProps>`
+  background: ${({ outline }) => (outline ? '#fff' : '#ccc')};
   width: 10%;
   padding: 0.5rem;
-  border: ${({ stroke }) => (stroke ? '1px solid #111' : 'none')};
+  border: ${({ outline }) => (outline ? '1px solid #111' : 'none')};
   border-radius: 1rem;
   margin: 0.5rem;
   cursor: pointer;
 `;
 
-export const FilterSelect = styled.select<FilterButtonProps>`
-  background: ${({ stroke }) => (stroke ? '#fff' : '#ccc')};
+export const FilterSelect = styled.select<IFilterButtonProps>`
+  background: ${({ outline }) => (outline ? '#fff' : '#ccc')};
   width: 10%;
   padding: 0.5rem;
-  border: ${({ stroke }) => (stroke ? '1px solid #111' : 'none')};
+  border: ${({ outline }) => (outline ? '1px solid #111' : 'none')};
   border-radius: 1rem;
   margin: 0.5rem;
   cursor: pointer;

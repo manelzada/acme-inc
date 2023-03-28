@@ -1,4 +1,4 @@
-**Acme Inc. E-commerce** Projeto Acme Inc, um e-commerce desenvolvido como teste prático para a Hype Investimentos.
+**Acme Inc. E-commerce**
 
 **Sobre o projeto** Este projeto foi desenvolvido utilizando React e é um exemplo de e-commerce, onde os usuários podem
 visualizar produtos, adicionar produtos ao carrinho e gerenciar seus favoritos. O projeto foi criado para demonstrar
